@@ -2,6 +2,8 @@ body {
   background-color: black;
   color: white;
   font-family: Helvetica, sans-serif;
+  min-width: 1088px;
+  overflow: scroll;
 }
 
 /* Header Section */
@@ -41,21 +43,29 @@ body {
   display: inline-block;
 }
 
-.mainbody h3 {
+.arrivalsection div {
   width: 99%;
   height: 5%;
   background-color: #565a5c;
   position: relative;
-  padding: 0.5% 0% 0.5% 1%;
+  padding: 0.5% 0% 0% 1%;
+  margin-bottom: 0.6%;
+}
+
+.mainbody h3 {
+  width: 20%;
+  height: auto;
   font-size: 1.3rem;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 0.5%;
+  position: relative;
+  top: 0.25rem;
+  left: 0.25rem;
 }
 
 .mainbody h1 {
   width: 98%;
-  height: 80%;
+  height: 81%;
   margin-top: 0;
   background-color: #c60c30;
   position: relative;
@@ -108,6 +118,7 @@ body {
   left: 65%;
   bottom: 20%;
   font-size: 1.75rem;
+  letter-spacing: 0.25rem;
 }
 
 .timebox #date {
@@ -116,6 +127,6 @@ body {
   background-color: #303030;
   position: relative;
   left: 68%;
-  bottom: 25%;
+  bottom: 26%;
   font-size: 1.75rem;
 }
